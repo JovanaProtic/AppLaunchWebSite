@@ -1,0 +1,310 @@
+header article.slider section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img1 {
+    background-image: url(IMG/img1.jpeg);
+}
+.bg-img2 {
+    background-image: url(IMG/img2.jpeg);
+}
+.bg-img3 {
+    background-image: url(IMG/img3.jpeg);
+}
+aside {
+    background-color: none;
+}
+aside h1, hr, p {
+   display: none;
+}
+aside button {
+    color: #fff;
+    padding: 10px 21px;
+    width: 60%;
+    margin: 10% 20%;
+    border: none;
+    border-radius: 8px;
+    text-align: center; 
+    cursor: pointer;
+}
+#slider1 aside button {
+    background-color: #228B22;
+}
+#slider1 aside button:hover {
+    color: #000;
+    background-color: #fff; 
+}
+#slider2 aside button {
+    background-color: #FF6347;
+}
+#slider2 aside button:hover {
+    color: #000;
+    background-color: #fff; 
+}
+#slider3 aside button {
+    background-color: #008080;
+}
+#slider3 aside button:hover {
+    color: #000;
+    background-color: #fff; 
+}
+#slider2 {
+    display: none;
+}
+#slider3 {
+    display: none;
+}
+button.take-tour {
+    display: block;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 30%;
+    background-color: #242424;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    width: 40%;
+    z-index: 10;
+    cursor: pointer;
+}
+button.take-tour:hover {
+    background-color: #fff;
+    color: #000;
+}
+main {
+    width: 100%;
+}
+main article section {
+    width: 90%;
+    margin: 5%;
+    padding: 21px 0;
+}
+article.the-app {
+    width: 100%;
+}
+article.the-app section h1, h2, p {
+    text-align: center;
+}
+article.the-app section h2 {
+    color: #228B22;
+}
+article.the-app section p {
+    color: #000;
+    display: block;
+    text-align: justify;
+}
+article.the-app .fa-android {
+    color: #228B22; 
+    padding-left: 5px;
+}
+article.the-app .fa-apple {
+    color: #000;
+    padding-left: 5px;
+}
+article.the-app .fa-windows {
+    color: #008080;
+    padding-left: 5px;
+}
+article.the-app section button {
+    padding: 10px 21px;
+    background-color: #242424;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    margin: 21px 15%;
+    cursor: pointer;
+}
+article.the-app section button:hover {
+    background-color: #228B22;
+}
+article.the-app section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+article.clarity {
+    width: 100%;
+    background-color: #F8F8FF;
+}
+article.clarity section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+article.clarity section h1, h2, p {
+    text-align: center;
+}
+article.clarity section h2 {
+    color: #FF6347;
+}
+article.clarity section p {
+    color: #000;
+    display: block;
+    text-align: justify;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 21px 0px;
+}
+                                                                    /*MODAL*/
+.modal {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #dcdcdc;
+    overflow: hidden;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 15px;
+    background-color: #fff;
+    display: none;
+}
+.modal-content h1 {
+    text-align: justify;
+    color: #000;
+    margin: 0 5%;
+    margin-top: 5%;
+    letter-spacing: 3px;
+}
+.modal-content p {
+    display: block;
+    color: #000;
+    text-align: justify;
+    margin: 0 5%;
+    padding: 21px 0px; 
+}
+.modal-content p strong {
+    font-size: 21px;
+    padding-right: 15px;
+}
+.modal-content input {
+    display: block;
+    width: 90%;
+    margin: 21px 5%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.modal-content button {
+    display: block;
+    width: 90%;
+    margin: 21px 5%;
+    padding: 10px 0px;
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+                                                            /*Media Queries*/
+@media (min-width: 700px) {
+    aside {
+        width: 30%;
+        display: block;
+        background-color: #242424;
+        opacity: .8;
+        position: absolute;
+        border-radius: 5px;
+        margin-left: 5%;
+        margin-top: 25%; 
+    }
+    aside button {
+        color: #fff;
+        padding: 10px 21px;
+        width: 80%;
+        margin: 5% 10%;
+        border: none;
+        border-radius: 8px;
+        text-align: center; 
+        cursor: pointer;
+    }
+    aside h1, hr, p {
+        color: #fff;
+        text-align: center;
+        margin: 0px;
+        opacity: .8;
+        display: block;
+    }
+    aside h1, p {
+        padding: 21px 0px;
+    }
+    aside hr {
+        width: 90%;
+        margin: 0 5%;
+    }
+    button.take-tour {
+        display: block;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 75%;
+        background-color: #242424;
+        color: #fff;
+        padding: 10px 15px;
+        text-align: center;
+        border:none;
+        border-radius: 5px;
+        width: 20%;
+        z-index: 10;
+        cursor: pointer;
+    }
+    article.the-app {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    article.clarity {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    article.the-app section img {
+        margin-top: 50%;
+    }
+    article.clarity section img {
+        margin-top: 20%;
+    }
+}
+@media (min-width: 1024px) {
+    aside button {
+        width: 60%;
+        margin: 5% 20%;
+    }
+    button.take-tour {
+        margin-top: 27%;
+        margin-left: 85%;
+        width: 13%;
+    }
+    article.the-app section img {
+        margin-top: 25%;
+    }
+    article.clarity section img {
+        margin-top: 20%;
+    }
+    .modal {
+    width: 60%;
+    margin: 5% 20%;
+    }
+    .modal-content button {
+        margin: 5%;
+        
+    }
+    article.the-app section button {
+        width: 40%;
+        margin: 21px 30%;
+    }
+}

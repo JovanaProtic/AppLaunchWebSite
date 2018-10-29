@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>App Launch</title>
+					<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+					<!-- Font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+					<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+					<!-- Moji stilovi -->
+    <link href="style.css" rel="stylesheet">
+    				<!-- Moje skripte -->
+    
+
+</head>
+<body>
+	<header>
+		<article class="slider">
+            <button class="take-tour">Take Tour ></button>
+            <section id="slider1" class="bg-img1 mySlides">
+                <aside>
+                    <h1>Take photos with our app</h1>
+                    <hr>
+                    <p>Super simple installment: free of charge</p>
+                    <button onclick="document.getElementById('modal').style.display='block'">Download <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></button>
+                </aside>
+            </section>
+            <section id="slider2" class="bg-img2 mySlides">
+                <aside>
+                    <h1>CLICK! Fast and Easy</h1>
+                    <hr>
+                    <p>Choose from thousands of features</p>
+                    <button onclick="document.getElementById('modal').style.display='block'">Download <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></button>
+                </aside>
+            </section>
+            <section id="slider3" class="bg-img3 mySlides">
+                <aside>
+                    <h1>Smart Design</h1>
+                    <hr>
+                    <p>Customize photos as you go</p>
+                    <button onclick="document.getElementById('modal').style.display='block'">Download <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></button>
+                </aside>
+            </section>
+        </article>
+	</header>
+	<main>
+		<article class="the-app">
+			<section>
+				<h1>The App</h1>
+				<h2>Why buy it?</h2>
+				<p>
+					<strong>Take photos like a pro.</strong> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				</p>
+				<button onclick="document.getElementById('modal').style.display='block'"><i class="fas fa-download"></i> Download Application</button>
+				<p><strong>Available for</strong> <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></p>
+			</section>
+			<section>
+				<img src="IMG/img2.jpeg" alt="App image">
+			</section>
+		</article>
+
+		<article class="clarity">
+			<section>
+				<img src="IMG/img3.jpeg" alt="App image">
+			</section>
+			<section>
+				<h1>Clarity</h1>
+				<h2>Pixels, who?</h2>
+				<p>
+					<strong>A revolution in resolution.</strong> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				</p>
+			</section>
+		</article>
+	</main>
+	<footer>&copy; Jovana Protic</footer>
+																	<!-- MODAL -->
+	<article id="modal" class="modal">
+        <section class="modal-content">
+                <h1>DOWNLOAD</h1>
+                <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+                <p><strong><i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></strong></p>
+                <input type="email" name="email" id="email" placeholder="Enter email.">
+                <button onclick="document.getElementById('modal').style.display='none'">DOWNLOAD</button>
+        </section>
+    </article>
+    <script type="text/javascript" src="img-slider.js" ></script>
+</body>
+</html>
